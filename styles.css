@@ -1,0 +1,128 @@
+@media (min-width: 400px) {
+  * {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  header {
+    color: white;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  .mast-head {
+    background-color: #4B03D1;
+    padding: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+  }
+  .square {
+    height: 15px;
+    width: 15px;
+    background-color: #D7B7FD;
+    margin: 0 5px;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #D7B7FD;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    border-top: 15px solid #D7B7FD;
+    margin: 0 5px;
+  }
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6205EE;
+  }
+  .pull-menu {
+    margin-left: 20px;
+    width: 110px;
+  }
+  .magnify {
+    width: 20px;
+    filter: invert(100);
+  }
+  .three-dots {
+    width: 20px;
+    filter: invert(100);
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .right-header {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-right: 8px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+  }
+  main img {
+    width: 20px;
+    filter: opacity(50%);
+
+  }
+  input, select {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #7C7C7C;
+    border-radius: 5px 5px 0 0;
+    background-color: #E8E8E8;
+    margin: 10px;
+    padding: 15px;
+    width: 87%;
+    color: #777777;
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+  }
+  .input-light {
+    border-top: 1px solid #7C7C7C;
+    border-right: 1px solid #7C7C7C;
+    border-left: 1px solid #7C7C7C;
+    border-bottom: 1px solid #7C7C7C;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    width: 87%;
+}
+.one {
+  width: 60%;
+}
+.two {
+  width: 40%;
+}
+.city-line {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.city-line img {
+  filter: invert(1);
+  width: 20px;
+  height: 20px;
+}
+.state-line {
+  display: flex;
+}
+.state-line img {
+  filter: invert(1);
+}
